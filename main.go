@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-mod-ninga/cash"
+	cache "go-mod-ninga/cash"
 )
 
 func main() {
@@ -20,4 +20,5 @@ func main() {
 	fmt.Println(userId)
 
 	fmt.Println(cache.GetMap())
+
 }
